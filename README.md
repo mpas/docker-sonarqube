@@ -13,6 +13,7 @@ To add/remove plugins modify the Dockerfile and build your own version.
 
 ### Using Docker Compose
 There is an assumption you have installed docker-compose!
+
 `docker-compose up`
 
 ## Installed plugins
