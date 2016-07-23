@@ -5,10 +5,15 @@ The default provided plugins are removed and replaced by manual downloaded.
 
 To add/remove plugins modify the Dockerfile and build your own version.
 
-## Usage
-There is an assumption you have installed docker-compose
+### Building the image
+`docker build -t docker-sonarqube .`
 
-docker-compose up
+### Running the image
+`docker run -it --rm docker-sonarqube`
+
+### Using Docker Compose
+There is an assumption you have installed docker-compose!
+`docker-compose up`
 
 ## Installed plugins
 * sonar-findbugs-plugin-3.4.3.jar

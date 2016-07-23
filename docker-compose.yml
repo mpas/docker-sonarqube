@@ -12,7 +12,7 @@ services:
      - SONARQUBE_JDBC_USERNAME=sonar
      - SONARQUBE_JDBC_PASSWORD=sonar
      
-   postgres:
+  postgres:
     image: postgres:9.5.3
     ports:
       - "5432:5432"
